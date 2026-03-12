@@ -1,0 +1,8 @@
+Experiment-1: Git Version Control
+
+This project demonstrates basic Git operations:
+1. Initializing a repository
+2. Adding files to staging
+3. Committing changes
+4. Working with branches
+5. Merging branches and resolving conflicts
