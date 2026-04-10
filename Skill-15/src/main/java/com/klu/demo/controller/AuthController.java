@@ -12,7 +12,7 @@ import com.klu.demo.security.JwtUtil;
 public class AuthController {
 
     @Autowired
-    private UserRepository repo;
+    private UserRepository repo; //
 
     @Autowired
     private JwtUtil jwtUtil;
