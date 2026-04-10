@@ -8,7 +8,7 @@ function App() {
   const [students, setStudents] = useState([]);
   const [selectedStudent, setSelectedStudent] = useState(null);
 
-  const API_URL = "http://localhost:8080/students";
+  const API_URL = "http://localhost:8080/students"; //
 
   // Fetch all students
   const fetchStudents = async () => {
