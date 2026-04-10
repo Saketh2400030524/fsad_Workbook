@@ -8,7 +8,7 @@ import java.util.*;
 public class StudentController {
     @GetMapping("/message")
     public String getMessage() {
-        return "FULL STACK APP WELCOME!!";
+        return "FULL STACK APP WELCOME!!"; //
     }
     @GetMapping("/users")
     public List<String> getUsers() {
