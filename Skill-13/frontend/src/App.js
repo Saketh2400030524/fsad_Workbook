@@ -6,7 +6,7 @@ const [users, setUsers] = useState([]);
 useEffect(() => {
 axios.get("http://localhost:8080/api/message")
 .then(res => setMessage(res.data));
-axios.get("http://localhost:8080/api/users")
+axios.get("http://localhost:8080/api/users") //
 .then(res => setUsers(res.data));
 }, []);
 return (
