@@ -14,7 +14,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("Student CRUD API")
-                        .version("1.0")
+                        .version("1.0") //
                         .description("Swagger Documentation for Student CRUD Application"));
     }
 }
